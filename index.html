@@ -372,6 +372,33 @@
         align-self: flex-end;
       }
     }
+
+    @media screen and (max-width: 767px) {
+      .header-footer-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .header-footer-left .social-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 0;
+      }
+
+      .header-footer-left .button-scroll {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+        width: auto;
+        flex: 0 0 auto;
+      }
+    }
   </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
