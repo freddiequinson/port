@@ -5,14 +5,14 @@ Reviewed on 24 August 2026. This is a private publication draft. It is not permi
 ## Current LinkedIn audit
 
 - The headline is `Mr` and does not state an engineering role.
-- The profile has no About, Experience, Education, Featured or Skills section visible.
-- The intro associates the profile with the National Communications Authority, although the
-  verified NCA role ended in August 2025.
-- Contact information exposes a mobile number and birthday. Both should be removed from the
-  public profile.
-- No portfolio website is linked.
-- The public Open to Work card is broader than the approved positioning and should be reviewed
-  before the profile is published as the professional baseline.
+- About says `Data Analyst • Public Speaker • Tutor`.
+- Experience shows National Service Personnel at the National Communications Authority from
+  October 2024 to present, which conflicts with the private LockIn ledger.
+- Maddy Group and CMC are absent.
+- Education shows the KNUST Actuarial Science degree, but its grade field still says `Level 200`.
+- Power BI and Excel certificates are visible. They remain certificates, not competence evidence.
+- The standalone Skills section was not exposed in the observed page, so this audit authorises no
+  bulk skill edit.
 
 ## Approved LinkedIn copy
 
@@ -22,18 +22,15 @@ Backend Engineer | Applied AI for Fintech and Regulated Systems
 
 ### About
 
-I am a backend engineer focused on applied AI for fintech and regulated systems. I work as a
-Senior Developer at Maddy Group and as a Technology Consultant to CMC. Previously, I worked as a
-Research and Data Analyst at the National Communications Authority.
-
-My public work is evidence-led. I use architecture notes, tests, threat models and reproducible
-case studies to explain what I built and how it behaves. Client details, adoption claims and
-outcomes remain private until the relevant stakeholder approves them.
+Backend engineer focused on applied AI for fintech and regulated systems. Based in Accra, Ghana.
+I publish selected architecture, testing and project evidence only after it has passed an
+independent-build review.
 
 ### Experience
 
-Publish role and date facts only. Do not add responsibility or outcome bullets until their
-support and stakeholder gates pass in LockIn.
+Do not publish these changes yet. Each role identity needs linked support and reviewed wording in
+LockIn. Responsibilities and outcomes remain separate claims with their own support, stakeholder
+and confidentiality gates.
 
 1. Maddy Group
    - Senior Developer
@@ -63,7 +60,7 @@ course, certificate, contribution graph or unverified live link.
 
 - Location: Accra, Ghana.
 - Keep LinkedIn itself.
-- Add one dedicated professional email after Fredrick confirms the address.
+- Public professional email: `agyarefredrick22@gmail.com`.
 - Remove the mobile number and birthday from public contact information.
 - Do not publish a street address.
 
@@ -109,8 +106,8 @@ will remain private until approved.
 Before any external edit:
 
 1. Fredrick reviews this batch.
-2. The dedicated professional email is confirmed.
-3. The employment-only status rule in the LockIn claim model is resolved.
-4. Each role is entered in the private claim ledger with support.
-5. A final before-and-after preview is reviewed.
-6. Fredrick performs or explicitly confirms the external publication actions.
+2. Each role is entered in the private claim ledger with support and reviewed wording.
+3. The NCA title and dates are reconciled against a placement letter, employer record or approved
+   reference.
+4. A final before-and-after preview is reviewed.
+5. Fredrick performs or explicitly confirms the external publication actions.
