@@ -89,7 +89,8 @@ The existing visual design can remain. The published copy and links cannot.
 
 ### Hero
 
-Backend Engineer.  
+Backend Engineer.
+
 Applied AI for Fintech and Regulated Systems.
 
 I build backend services, data workflows and applied AI features with an emphasis on auditability,
