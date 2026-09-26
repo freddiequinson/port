@@ -262,10 +262,64 @@
       display: none !important;
     }
 
-    #creatorled-project > .projects-list,
     .more-projects-list,
     .grid-about-testimonials {
       display: none !important;
+    }
+
+    .portfolio-projects {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+      padding: 40px 5vw 80px;
+    }
+
+    .portfolio-card {
+      overflow: hidden;
+      border: 1px solid #444;
+      border-radius: 20px;
+      background: #171717;
+      color: #fff;
+    }
+
+    .portfolio-card img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: contain;
+      background: #242424;
+    }
+
+    .portfolio-card-body {
+      padding: 24px;
+    }
+
+    .portfolio-card h3 {
+      margin: 0 0 12px;
+      font-size: 1.5rem;
+    }
+
+    .portfolio-card p {
+      margin: 0 0 24px;
+      line-height: 1.5;
+    }
+
+    .portfolio-card a,
+    .portfolio-projects-intro a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .portfolio-projects-intro {
+      padding: 64px 5vw 0;
+      color: #fff;
+    }
+
+    @media screen and (max-width: 900px) {
+      .portfolio-projects {
+        grid-template-columns: 1fr;
+      }
     }
 
     /* Responsive Contact Me section */
@@ -849,7 +903,7 @@
     <ul id="nav-menu" role='list' aria-labelledby="btn-nav-toggle" aria-hidden="true">
       <li style="--i: 1;"><a href="#header" data-target="#header"><span>Home</span></a></li>
       <li style="--i: 2;"><a href="#details" data-target="#details"><span>About</span></a></li>
-      <li style="--i: 3;"><a href="#case-study-review" data-target="#case-study-review"><span>Case studies</span></a></li>
+      <li style="--i: 3;"><a href="#creatorled-project" data-target="#creatorled-project"><span>Projects</span></a></li>
       <li style="--i: 4;" class="accordion-item">
         <button type="button" class="accordion-trigger"><span>Contact</span></button>
         <ul class="accordion-content">
@@ -986,27 +1040,47 @@
       </div>
     </section>
     <div class="w-dyn-list" id="creatorled-project">
-      <div id="case-study-review" class="home-about edit">
-        <div class="grid-about-text">
-          <h2 class="about-headline">Case studies are under evidence review.</h2>
-          <p class="home-about-description">
-            Each case study will publish with reproducible setup, architecture, tests, security analysis and clearly
-            attributed personal contribution. Client details and outcomes remain private until approved.
-          </p>
-        </div>
+      <div class="portfolio-projects-intro">
+        <h2 class="about-headline">Selected projects</h2>
+        <p>I'm also building <a href="https://lockin.quinson.dev/" target="_blank" rel="noopener noreferrer">LockIn</a>, a 52-week engineering apprenticeship and the software that holds me to it.</p>
+      </div>
+      <div class="portfolio-projects">
+        <article class="portfolio-card">
+          <img src="images/orda.png" alt="Orda Rides website preview" loading="lazy">
+          <div class="portfolio-card-body">
+            <h3>Orda Rides</h3>
+            <p>A community-focused mobility and delivery project for Ghana.</p>
+            <a href="https://freddiequinson.github.io/ordarides/" target="_blank" rel="noopener noreferrer">Explore Orda Rides</a>
+          </div>
+        </article>
+        <article class="portfolio-card">
+          <img src="images/pomodoro.png" alt="Pomodoro Play website preview" loading="lazy">
+          <div class="portfolio-card-body">
+            <h3>Pomodoro Play</h3>
+            <p>A browser focus timer with tasks and local break-time games.</p>
+            <a href="https://github.com/freddiequinson/Pomodoro-Play" target="_blank" rel="noopener noreferrer">Explore the repository</a>
+          </div>
+        </article>
+        <article class="portfolio-card">
+          <img src="images/msunit.png" alt="Go-Shop website preview" loading="lazy">
+          <div class="portfolio-card-body">
+            <h3>Go-Shop</h3>
+            <p>A grocery commerce system built for Ghanaian retail workflows.</p>
+            <a href="https://github.com/freddiequinson/Go-Shop" target="_blank" rel="noopener noreferrer">Explore the repository</a>
+          </div>
+        </article>
       </div>
     </div>
     <footer id="about" class="home-about edit">
       <div id="w-node-_0d6a37a5-2143-ddfd-df6a-1112d06c6f8d-e23b50e1" class="grid-about-text">
         <h2 id="w-node-_07b6378d-bbd4-337e-63a5-504eab8e0679-e23b50e1" class="about-headline">
-          Additional case studies</h2>
+          More work</h2>
         <div id="w-node-_0702f2d8-091e-6eaf-df50-7e8d6ee095d9-e23b50e1">
           <p class="home-about-description">
-            More work will appear only after its ownership, security, reproducibility and stakeholder claims pass
-            review.
+            These projects are part of my ongoing work. I can share architecture, testing decisions and the parts I built in conversation.
           </p>
           <p class="home-about-description">
-            Project names and repository links will appear here only after their evidence gates pass.
+            For a closer look at my current learning project, visit <a href="https://lockin.quinson.dev/" target="_blank" rel="noopener noreferrer">LockIn</a>.
           </p>
         </div>
       </div>

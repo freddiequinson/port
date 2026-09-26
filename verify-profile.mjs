@@ -6,7 +6,11 @@ const html = readFileSync(new URL("./index.html", import.meta.url), "utf8");
 for (const text of [
   "Backend Engineer.<br>Applied AI for Fintech and Regulated Systems.",
   "I publish selected architecture, testing and project evidence only after it has passed an independent-build review.",
-  "Case studies are under evidence review.",
+  "Selected projects",
+  "https://lockin.quinson.dev/",
+  "https://freddiequinson.github.io/ordarides/",
+  "https://github.com/freddiequinson/Pomodoro-Play",
+  "https://github.com/freddiequinson/Go-Shop",
 ]) {
   assert(html.includes(text), `Required reviewed copy is missing: ${text}`);
 }
@@ -21,7 +25,6 @@ for (const forbidden of [
   "Ayawaso Central Municipal Assembly",
   "Tysson Electronics",
   "Founder & Product Lead",
-  "Go-Shop",
   "Automated Call Center with AWS Connect",
   "Bank Bot with AWS Lex",
   "Website Vulnerability Scanner",
