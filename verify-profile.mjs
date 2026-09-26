@@ -8,16 +8,17 @@ for (const text of [
   "I publish selected architecture, testing and project evidence only after it has passed an independent-build review.",
   "Selected projects",
   "https://lockin.quinson.dev/",
-  "https://freddiequinson.github.io/ordarides/",
+  "https://www.ordarides.com/",
   "https://github.com/freddiequinson/Pomodoro-Play",
-  "https://github.com/freddiequinson/Go-Shop",
+  "https://ems-woad-kappa.vercel.app/",
+  "https://omariomari2.github.io/Go-Shop/",
 ]) {
   assert(html.includes(text), `Required reviewed copy is missing: ${text}`);
 }
 
 for (const forbidden of [
   "BrightOmari",
-  "omariomari2",
+  "omariomari2.github.io/erp_adminbackup/",
   "brigdethe",
   "phone-contact",
   "Cloud Engineer",
